@@ -1,3 +1,4 @@
+*.swp
 uwsgi.sock
 venv
 node_modules
