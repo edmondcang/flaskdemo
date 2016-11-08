@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    {% if title %}
+    <title>{{ title }}</title>
+    {% else %}
+    <title>No Title</title>
+    {% endif %}
+
+  </head>
+
+  <body>
+    <h1>Hallo, {{ user.name }} !</h1>
+  </body>
+
+</html>

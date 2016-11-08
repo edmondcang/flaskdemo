@@ -1,0 +1,4 @@
+uwsgi.sock
+venv
+node_modules
+flaskdemo/__pycache__
